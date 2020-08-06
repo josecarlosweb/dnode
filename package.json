@@ -1,6 +1,6 @@
 {
   "name": "@davedoesdev/dnode",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "description": "freestyle rpc",
   "main": "./index.js",
   "keywords": [
@@ -12,14 +12,14 @@
     "url": "http://github.com/substack/dnode.git"
   },
   "dependencies": {
-    "dnode-protocol": "~0.2.2",
-    "jsonify": "~0.0.0"
+    "dnode-protocol": "^0.2.2",
+    "jsonify": "^0.0.0"
   },
   "optionalDependencies": {
-    "weak-napi": "^1.0.3"
+    "weak-napi": "^2.0.2"
   },
   "devDependencies": {
-    "tape": "~2.3.2"
+    "tape": "^5.0.1"
   },
   "scripts": {
     "test": "tape test/*.js test/server/*.js"
