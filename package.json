@@ -1,6 +1,6 @@
 {
   "name": "@davedoesdev/dnode",
-  "version": "1.2.4",
+  "version": "1.3.1",
   "description": "freestyle rpc",
   "main": "./index.js",
   "keywords": [
@@ -16,7 +16,7 @@
     "jsonify": "^0.0.0"
   },
   "optionalDependencies": {
-    "weak": "^1.0.0"
+    "weak": "^1.0.0",
     "weak-napi": "^2.0.2"
   },
   "devDependencies": {
